@@ -1,4 +1,4 @@
-export class TreeAction {
-  static readonly type = '[Tree] Add item';
-  constructor(public payload: string) { }
+export class AddTree {
+  static readonly type = '[Tree] Add Tree';
+  constructor() {}
 }

@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MatTreeModule, MatIconModule } from '@angular/material';
+import {
+  MatTreeModule,
+  MatIconModule,
+  MatButtonModule
+} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -14,7 +18,8 @@ import { TreeState } from 'state/tree.state';
     BrowserAnimationsModule,
     NgxsModule.forRoot([TreeState]),
     MatIconModule,
-    MatTreeModule
+    MatTreeModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
