@@ -1,5 +1,7 @@
 # TrySaveTreeExpandState
 
+The solution is to update expansionModel after updating tree data. See [here](https://github.com/andy23512/try-save-tree-expand-state/blob/master/src/app/app.component.ts#L29)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
 ## Development server
